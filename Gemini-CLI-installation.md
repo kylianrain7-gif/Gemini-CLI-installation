@@ -1,4 +1,4 @@
-# Gemini CLI 安装与使用避坑指南
+﻿# Gemini CLI 安装与使用避坑指南
 
 作者：KKKK
 
@@ -18,7 +18,7 @@
 
 注意**：请务必选择 **Node.js 20** 或更高版本，并且**选择LTS版本**
 
-![image-20251226121232402](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226121232402.png)
+![image-20251226121232402](./images/image-20251226121232402.png)
 
 
 
@@ -34,7 +34,7 @@
 nvm -v
 ```
 
-![image-20251226123349083](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226123349083.png)
+![image-20251226123349083](./images/image-20251226123349083.png)
 
 
 
@@ -44,7 +44,7 @@ nvm list available
 
 
 
-![image-20251226123208403](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226123208403.png)
+![image-20251226123208403](./images/image-20251226123208403.png)
 
 
 
@@ -68,7 +68,7 @@ node -v
 
 
 
-![image-20251226123630706](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226123630706.png)
+![image-20251226123630706](./images/image-20251226123630706.png)
 
 **3.查看已安装的所有Node,js版本**
 
@@ -76,7 +76,7 @@ node -v
 nvm list
 ```
 
-![image-20251226123805175](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226123805175.png)
+![image-20251226123805175](./images/image-20251226123805175.png)
 
 
 
@@ -94,7 +94,7 @@ nvm use node版本号
 
 
 
-![image-20251226123856243](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226123856243.png)
+![image-20251226123856243](./images/image-20251226123856243.png)
 
 
 
@@ -112,7 +112,7 @@ nvm use node版本号
 
 
 
-![image-20251226124037817](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226124037817.png)
+![image-20251226124037817](./images/image-20251226124037817.png)
 
 
 
@@ -138,7 +138,7 @@ npm install -g @google/gemini-cli
 gemini --version
 ```
 
-![image-20251226124540512](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226124540512.png)
+![image-20251226124540512](./images/image-20251226124540512.png)
 
 
 
@@ -152,17 +152,17 @@ gemini --version
 gemini
 ```
 
-![image-20251226125618667](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226125618667.png)
+![image-20251226125618667](./images/image-20251226125618667.png)
 
 
 
-![image-20251226130235042](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130235042.png)
+![image-20251226130235042](./images/image-20251226130235042.png)
 
 
 
 #### 选择一：谷歌账号验证：
 
-![image-20251226125141626](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226125141626.png)
+![image-20251226125141626](./images/image-20251226125141626.png)
 
 
 
@@ -174,7 +174,7 @@ gemini
 
 ##### **登录失败**：（成功的跳过这一节）
 
-![image-20251226125352641](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226125352641.png)
+![image-20251226125352641](./images/image-20251226125352641.png)
 
 
 
@@ -204,7 +204,7 @@ $env:NO_PROXY="localhost,127.0.0.1"
 
 
 
-![image-20251226130001587](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130001587.png)
+![image-20251226130001587](./images/image-20251226130001587.png)
 
 
 
@@ -222,7 +222,7 @@ gemini
 
 验证成功
 
-![image-20251226130543669](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130543669.png)
+![image-20251226130543669](./images/image-20251226130543669.png)
 
 
 
@@ -254,7 +254,7 @@ https://aistudio.google.com/app/api-keys
 
 第三步：在登录页面选择2
 
-![image-20251226131935079](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226131935079.png)
+![image-20251226131935079](./images/image-20251226131935079.png)
 
 之后输入key即可登录
 
@@ -262,7 +262,7 @@ https://aistudio.google.com/app/api-keys
 
 
 
-![image-20251226132051681](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226132051681.png)
+![image-20251226132051681](./images/image-20251226132051681.png)
 
 
 
@@ -272,7 +272,7 @@ https://aistudio.google.com/app/api-keys
 
 
 
-![image-20251226130619910](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130619910.png)
+![image-20251226130619910](./images/image-20251226130619910.png)
 
 
 
@@ -288,11 +288,11 @@ https://aistudio.google.com/app/api-keys
 
 
 
-![image-20251226130724031](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130724031.png)
+![image-20251226130724031](./images/image-20251226130724031.png)
 
 
 
-![image-20251226130801207](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130801207.png)
+![image-20251226130801207](./images/image-20251226130801207.png)
 
 
 
@@ -302,7 +302,7 @@ https://aistudio.google.com/app/api-keys
 
 
 
-![image-20251226130709449](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130709449.png)
+![image-20251226130709449](./images/image-20251226130709449.png)
 
 
 
@@ -320,11 +320,12 @@ https://aistudio.google.com/app/api-keys
 
 
 
-![image-20251226130916462](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130916462.png)
+![image-20251226130916462](./images/image-20251226130916462.png)
 
-![image-20251226130924934](C:\Users\DG195\AppData\Roaming\Typora\typora-user-images\image-20251226130924934.png)
+![image-20251226130924934](./images/image-20251226130924934.png)
 
 
 
 选择自己需要的模式
+
 
